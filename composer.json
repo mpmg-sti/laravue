@@ -1,54 +1,54 @@
 {
-    "name": "mpmg/laravue",
-    "description": "Code generation for MPMG projects that use Laravel and VueJs tecnologies.",
-    "type": "library",
-    "keywords": [
-        "mpmg",
-        "vue",
-        "vuejs",
-        "laravel"
-    ],
-    "homepage": "https://github.com/mpmg-sti/laravue",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Wesley Hott Soares",
-            "email": "wesley.hott@gmail.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "orchestra/testbench": "^6.3",
-        "laravel/passport": "^10.0",
-        "spatie/laravel-permission": "^3.17",
-        "adldap2/adldap2-laravel": "^6.1",
-        "subfission/cas":"dev-master",
-        "barryvdh/laravel-dompdf": "^0.8.7",
-        "phpoffice/phpspreadsheet": "^1.15",
-        "arcanedev/log-viewer": "8.0",
-        "intervention/image": "^2.5",
-        "lucascudo/laravel-pt-br-localization": "^1.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "Mpmg\\Laravue\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Mpmg\\Laravue\\Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Mpmg\\Laravue\\LaravueServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "mpmg/laravue",
+  "description": "Code generation for MPMG projects that use Laravel and VueJs tecnologies.",
+  "type": "library",
+  "keywords": [
+    "mpmg",
+    "vue",
+    "vuejs",
+    "laravel"
+  ],
+  "homepage": "https://github.com/mpmg-sti/laravue",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wesley Hott Soares",
+      "email": "wesley.hott@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "orchestra/testbench": "^6.3",
+    "laravel/passport": "^10.0",
+    "spatie/laravel-permission": "^3.17",
+    "adldap2/adldap2-laravel": "^6.1",
+    "subfission/cas": "4.3.0",
+    "barryvdh/laravel-dompdf": "^0.8.7",
+    "phpoffice/phpspreadsheet": "^1.15",
+    "arcanedev/log-viewer": "8.0",
+    "intervention/image": "^2.5",
+    "lucascudo/laravel-pt-br-localization": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mpmg\\Laravue\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mpmg\\Laravue\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mpmg\\Laravue\\LaravueServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
